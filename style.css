@@ -1,0 +1,50 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.btn{
+    color: white;
+    background-color: rgba(84, 182, 182, 0.952);
+    border-radius: 50px;
+    border-color:rgb(92, 212, 212);
+    display: block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.row{
+    display:flex;
+}
+
+.col{
+    flex:1;
+    background-color: blanchedalmond;
+    height: 100px;
+    margin: 1px;
+    margin-top: 15px;
+}
+
+.navbar{
+    color: white;
+    height: 40px;
+    background-color: rgb(50, 45, 45);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family:'Lucida Sans';
+}
+
+.alinear_carita{
+    object-position: 0px 40%;
+}
